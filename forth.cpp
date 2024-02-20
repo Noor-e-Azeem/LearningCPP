@@ -28,5 +28,7 @@ int main()
         cout << "You are an adult";
     }
 
+    // Switch case
+
     return 0;
 }
