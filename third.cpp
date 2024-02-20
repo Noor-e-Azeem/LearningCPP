@@ -48,5 +48,32 @@ int main()
     cout << "The value of b is " << int(r) << endl;
     int c = int(r);
 
+    // ***********************Constant************************** //
+
+    const int w = 40; // Now, we can't change its value
+
+    // ***********************Manipulators************************** //
+
+    // Manipulators --> Format and beautify code [ e.g. setw(), endl ]
+    // The header file <iomanip> is used for using setw().
+    // setw() has right aligned all the numbers (values). The value in bracket is width in terms of no.of characters.
+    // E.g setw(4) actually means set width of 4 characters.
+
+    int m = 4, n = 12, o = 137;                     
+    cout<<setw(3)<<m<<endl;
+    cout<<setw(3)<<n<<endl;
+    cout<<setw(3)<<o<<endl;
+
+    /* The Output will be:
+       4
+      12
+     137 */
+
+    // ***********************Operator Precedence************************** //
+
+    // Operator Precedence has same concept as the BODMAS in Maths, but sequence isn't same as BODMAS. 
+    // It is the sequence of which operator will be performed in sequence.
+    // If there's, int c = a*b+c-45; and so.
+    
     return 0;
 }
