@@ -1,4 +1,5 @@
 #include <iostream>
+#include<iomanip>
 using namespace std;
 
 int c = 20; // Here, c as global variable
