@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    /***********************  C++ Control Structures *************************/ 
+    /***********************  C++ Control Structures *************************/
 
     /********** 1) Sequence 2) Selection 3) Loop Control Structures **********/
 
@@ -28,7 +28,24 @@ int main()
         cout << "You are an adult";
     }
 
-    // Switch case
+    // Switch Case
+
+    switch (age)
+    {
+    case 16:
+        cout << "You are teenager." << endl;
+        break;
+    case 22:
+        cout << "You are adult." << endl;
+        break;
+    case 50:
+        cout << "You are old." << endl;
+        break;
+
+    default:
+        cout << "No special cases" << endl;
+        break;
+    }
 
     return 0;
 }
